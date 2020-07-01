@@ -1,0 +1,164 @@
+*Mountains from getwaves.io*/
+/*everything else from my brain :)*/
+
+
+.container {
+    position: relative;  
+    display: flex;
+justify-content: center;
+    align-items: center;
+width: 450px;
+height: 450px;
+
+}
+
+body{
+background-color: #fbcffc;
+ justify-content: center;
+    align-items: center;
+    display: flex;
+}  
+.sky {
+border: 3px solid #fe346e;
+background-color: #400082;
+ height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+.waves{
+width: 350px;
+z-index: 3;
+position: absolute;
+top:175px;
+}
+
+.moon {
+position: absolute; 
+top: 60px;
+left: 245px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   box-shadow: 15px 15px 0 0 yellow;
+}
+
+.moon-reflection {
+position: absolute; 
+top: 335px;
+left: 245px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   box-shadow: 15px 15px 0 0 yellow;
+opacity: .5;
+transform: scaleY(-1);
+}
+.star1 {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #ffacb7;
+height: 20px;
+width: 20px;
+top: 90px;
+left: 150px;
+position: absolute;
+}
+
+.star1-reflection {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #ffacb7;
+height: 20px;
+width: 20px;
+top: 340px;
+left: 150px;
+opacity: .5;
+position: absolute;
+transform: scaleY(-1);
+}
+.star2 {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #c3edea;
+height: 25px;
+width: 25px;
+top: 155px;
+left: 200px;
+position: absolute;
+}
+.star2-reflection {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #c3edea;
+height: 25px;
+width: 25px;
+top: 275px;
+left: 200px;
+position: absolute;
+transform: scaleY(-1);
+opacity: .5;
+}
+
+.star3 {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #00bdaa;
+height: 15px;
+width: 15px;
+top: 125px;
+left: 85px;
+position: absolute;
+
+}
+.star3-reflection {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #00bdaa;
+height: 15px;
+width: 15px;
+top: 295px;
+left: 85px;
+position: absolute;
+opacity: .5;
+transform: scaleY(-1);
+
+}
+
+.star4 {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #f1e7b6;
+height: 27px;
+width: 27px;
+top: 125px;
+left: 335px;
+position: absolute;
+}
+.star4-reflection {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #f1e7b6;
+height: 27px;
+width: 27px;
+top: 285px;
+left: 335px;
+position: absolute;
+opacity: .5;
+transform: scaleY(-1);
+
+}
+
+.star5 {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #fbcffc;
+height: 27px;
+width: 27px;
+top: 65px;
+left:240px;
+position: absolute;
+}
+
+
+.star5-reflection {
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+background-color: #fbcffc;
+height: 27px;
+width: 27px;
+top: 345px;
+left:240px;
+position: absolute;
+opacity: .5;
+
+}
